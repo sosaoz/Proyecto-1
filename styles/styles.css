@@ -1,0 +1,211 @@
+/*----General----*/
+
+*{
+    font-family: roboto;
+    font-weight: lighter;
+    max-width: 1000px;
+    max-height: 1600px;
+    margin: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.color-salmon{
+  color: #fa8070;
+}
+
+.top-15{
+  margin-top: 15px !important;
+}
+
+.top-30{
+  margin-top: 30px !important;
+}
+
+
+/*----Header----*/
+
+.encabezado{
+  background: url(../assets/pattern.png);
+  background-size: auto;
+  background-repeat: repeat;
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+h1{
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+header{
+  border-bottom-style: solid;
+  border-color: #fa8070;
+}
+
+.logo{
+  margin:20px;
+  padding-left: 10px;
+}
+
+nav{
+  float: right;
+  padding-right: 50px;
+  margin-top: 20px
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-size: 15px;
+    color: white;
+    display: block;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #fa8070;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/*----Body----*/
+
+.aside{
+  margin-top: 30px;
+  float:right;
+  width: 25%;
+}
+
+.banner img{
+  border: solid #fa8070 5px;
+  width: 100%;
+}
+
+.border-light{
+  border: solid lightgrey 1px;
+  border-radius: 15px;
+  padding: 20px 10px;
+}
+
+.border-light form img, .border-light form input{
+  vertical-align: middle;
+}
+
+.contenedor{
+  margin: 0px 35px;
+}
+
+.color-aqua{
+  color: #19c3e1;
+}
+
+.color-grey{
+  color: #818788;
+}
+
+.contenedor a{
+  color: #19c3e1;
+}
+
+.inline{
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  height: 33px;
+  padding: 0px;
+}
+
+.padding-left{
+  padding-left: 25px;
+}
+
+.parrafos{
+  float: left;
+  width: 75%;
+  padding-right: 35px;
+}
+
+.pink-dot{
+  list-style-image: url('../assets/bullet.png');
+}
+
+.search{
+  width: 100%;
+}
+
+
+
+/*----Footer----*/
+
+.center {
+    width: 50%;
+}
+
+footer{
+  background: url(../assets/pattern.png);
+  background-size: auto;
+  background-repeat: repeat;
+  border-top: solid  #fa8070;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  vertical-align: middle;
+}
+
+footer a{
+  border-left: solid white 1px;
+  color: #fa8070;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer li{
+  float:left;
+  padding: 0px 5px;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.links-external{
+  padding-bottom: 15px;
+  width: 620px;
+}
+
+.links-external ul{
+  text-align: center;
+}
+
+.links-web-site{
+ width: 440px;
+}
+
+
+.no-line{
+  border: none;
+}
